@@ -24,7 +24,7 @@ const Technology = () => {
       </div>
       {/* Left Column: Images */}
       <div className="lg:w-1/3 flex flex-col lg:flex-row gap-4 mb-8 lg:mb-0 mt-[15px]">
-        <div className="flex flex-col gap-4 ">
+        <div className="flex flex-col md:gap-4 gap-6">
           <img
             src="/images/alin.jpg"
             alt="Tech 1"
