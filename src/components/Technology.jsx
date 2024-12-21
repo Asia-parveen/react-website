@@ -11,9 +11,9 @@ const Technology = () => {
 
         {/* Right Column: Content */}
         <div className="lg:w-2/3 text-center lg:text-left lg:pl-[90px]">
-        <h2 className="text-xl lg:text-3xl font-bold mb-4 text-[#050523]">Innovative Technology</h2>
+        <h2 className="text-2xl md:text-3xl font-bold mb-4 text-[#050523] px-[8px]">Innovative Technology</h2>
         <h3 className="text-xl  mb-4 text-[#050523] font-bold">Powering the Future</h3>
-        <p className="text-gray-600 text-sm lg:text-base leading-relaxed px-[7px]">
+        <p className="text-gray-600 text-[12px] lg:text-base leading-relaxed px-[10px]">
           Our innovative technologies are designed to revolutionize the way businesses operate.<br></br>
           From cutting-edge AI to machine learning, we provide the tools to transform industries<br></br> 
           and empower organizations to thrive in the digital age.
