@@ -6,49 +6,49 @@ const About = () => {
   // Sample data for cards
   const cardData = [
     {
-      image: "src/assets/ai.jpg", // Example image
+      image: "/images/ai.jpg", // Example image
       title: "AI for Healthcare",
       description: "Transforming healthcare with AI-driven solutions.",
       buttonText: "Learn More",
     },
     {
-      image: "src/assets/colfl.jpg",
+      image: "public/images/colfl.jpg",
       title: "AI in Finance",
       description: "Leveraging AI to optimize financial systems.",
       buttonText: "Discover",
     },
     {
-      image: "src/assets/alin.jpg",
+      image: "public/images/alin.jpg",
       title: "AI for Education",
       description: "Revolutionizing education through AI tools.",
       buttonText: "Explore",
     },
     {
-      image: "src/assets/aigren.jpg",
+      image: "public/images/aigren.jpg",
       title: "AI in Marketing",
       description: "AI strategies to enhance digital marketing.",
       buttonText: "Get Started",
     },
     {
-      image: "src/assets/alin2.jpg",
+      image: "public/images/alin2.jpg",
       title: "AI for Robotics",
       description: "Innovating robotics with AI-driven automation.",
       buttonText: "See More",
     },
     {
-      image: "src/assets/aiblk.jpg",
+      image: "public/images/aiblk.jpg",
       title: "AI for Manufacturing",
       description: "Improving manufacturing efficiency with AI.",
       buttonText: "Learn More",
     },
     {
-      image: "src/assets/alin3.jpg",
+      image: "public/images/alin3.jpg",
       title: "AI in Retail",
       description: "AI solutions for enhancing retail experiences.",
       buttonText: "Explore Now",
     },
     {
-      image: "src/assets/mbl.jpg",
+      image: "public/images/mbl.jpg",
       title: "AI in Agriculture",
       description: "Improving agricultural practices with AI.",
       buttonText: "Discover More",
