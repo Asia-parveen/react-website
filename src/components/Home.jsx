@@ -14,7 +14,7 @@ const HomePage = () => {
         {/* Right Column (Image) */}
         <div className="flex justify-center lg:justify-end">
           <img
-            src="public/images/rbt.jpg" // Replace with your image URL
+            src="/images/rbt.jpg" // Replace with your image URL
             alt="Robot"
             className="w-450 h-400 object-cover rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-90"
           />

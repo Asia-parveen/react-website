@@ -26,24 +26,24 @@ const Technology = () => {
       <div className="lg:w-1/3 flex flex-col lg:flex-row gap-4 mb-8 lg:mb-0 ">
         <div className="flex flex-col gap-4 ">
           <img
-            src="public/images/alin.jpg"
+            src="/images/alin.jpg"
             alt="Tech 1"
             className="w-32 h-32 object-cover rounded-lg shadow-md hover:opacity-[0.7]"
           />
           <img
-            src="public/images/rbt.jpg"
+            src="/images/rbt.jpg"
             alt="Tech 2"
             className="w-32 h-32 object-cover rounded-lg shadow-md hover:opacity-[0.7]"
           />
         </div>
         <div className="flex flex-col gap-4">
           <img
-            src="public/images/alin3.jpg"
+            src="/images/alin3.jpg"
             alt="Tech 3"
             className="w-32 h-32 object-cover rounded-lg shadow-md hover:opacity-[0.7]"
           />
           <img
-            src="public/images/alin2.jpg"
+            src="/images/alin2.jpg"
             alt="Tech 4"
             className="w-32 h-32 object-cover rounded-lg shadow-md hover:opacity-[0.7]"
           />
