@@ -51,7 +51,7 @@ const Footer = () => {
 
         <div className="mt-8 border-t border-gray-200 pt-6">
           <p className="text-center text-sm text-gray-300">
-            &copy; 2024 AI Solutions. All rights reserved.
+            &copy; Asia parveen 2024 AI Solutions. All rights reserved.
           </p>
         </div>
       </div>

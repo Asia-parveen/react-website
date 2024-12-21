@@ -11,9 +11,9 @@ const Technology = () => {
 
         {/* Right Column: Content */}
         <div className="lg:w-2/3 text-center lg:text-left lg:pl-[90px]">
-        <h2 className="text-3xl font-bold mb-4 text-[#050523]">Innovative Technology</h2>
+        <h2 className="text-xl lg:text-3xl font-bold mb-4 text-[#050523]">Innovative Technology</h2>
         <h3 className="text-xl  mb-4 text-[#050523] font-bold">Powering the Future</h3>
-        <p className="text-gray-600 text-sm lg:text-base leading-relaxed">
+        <p className="text-gray-600 text-sm lg:text-base leading-relaxed px-[7px]">
           Our innovative technologies are designed to revolutionize the way businesses operate.<br></br>
           From cutting-edge AI to machine learning, we provide the tools to transform industries<br></br> 
           and empower organizations to thrive in the digital age.
@@ -23,7 +23,7 @@ const Technology = () => {
        
       </div>
       {/* Left Column: Images */}
-      <div className="lg:w-1/3 flex flex-col lg:flex-row gap-4 mb-8 lg:mb-0 ">
+      <div className="lg:w-1/3 flex flex-col lg:flex-row gap-4 mb-8 lg:mb-0 mt-[15px]">
         <div className="flex flex-col gap-4 ">
           <img
             src="/images/alin.jpg"
