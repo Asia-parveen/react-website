@@ -32,7 +32,7 @@ function App() {
         }`}
       >
         <div className="text-center">
-          <h1 className="text-2xl font-bold mb-4">React Light/Dark Theme</h1>
+          
           <label>
             <input
               onClick={changeTheme}
