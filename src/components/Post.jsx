@@ -11,7 +11,7 @@ function PostSection() {
       try {
         const res = await fetch("https://api.escuelajs.co/api/v1/categories");
         const data = await res.json();
-        console.log(data);
+        console.log(data);  // Check the fetched data
         setPost(data);
       } catch (error) {
         console.error("Error fetching data:", error);
@@ -26,7 +26,15 @@ function PostSection() {
         {post.map((card, i) => (
           <div key={i} className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <Card>
-              <Card.Img variant="top" src={card.image} alt={card.name} />
+              {/* Log the image source URL */}
+              {console.log(card.image ? card.image : '/images/mbl.jpg')}  {/* Log the image URL being used */}
+              
+              <Card.Img 
+                variant="top" 
+                src={card.image ? card.image : '/images/alin.jpg'}  // Fallback image if card.image is unavailable
+                alt={card.name} 
+                onError={(e) => e.target.src = '/images/alin.jpg'}  // Ensure fallback image if original fails to load
+              />
               <Card.Body>
                 <Card.Title>{card.name}</Card.Title>
                 <Card.Text>Category ID: {card.id}</Card.Text>
@@ -41,5 +49,10 @@ function PostSection() {
 }
 
 export default PostSection;
+
+
+
+
+
 
 
